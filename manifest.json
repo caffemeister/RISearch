@@ -1,0 +1,19 @@
+{
+    "name": "RISearch by tomelio",
+    "description": "Reverse Image Search as an extension. Small, simple, and lightweight. Right-click on an image and select Reverse Search Image to use.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["contextMenus", "activeTab", "storage", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "logo.png"
+    },
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    }
+  }
